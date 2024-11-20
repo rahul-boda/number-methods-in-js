@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+// // 1.Reverse a String: Input: 'hello' | Output: 'olleh'.
+
+// // Input: 'hello' | Output: 'olleh'/
+// const input="hello"
+// num=input.split("").reverse().join("")
+// console.log(num)
+
+// inp="rahul"
+// num=""
+// for( let i=inp.length -1;i>=0;i--)
+// num+=inp[i]
+// console.log(num) 
+
+// // 2.Check Palindrome: Input: 'radar' | Output: True .
+// function check(str){
+//     let rstr = str.split("").reverse().join("")
+//     return str===rstr
+// }
+// let name="radar"
+// let isPalindrome=check(name)
+// console.log(isPalindrome)
+
+// 3.Find Length: Input: 'hello' | Output: 5 .
+// num="hello"
+// add=num.length
+// console.log(add)
+
+// 4.Count Vowels and Consonants: Input: 'hello' | Output: Vowels:       2, Consonants: 3 .
+  
+let name="hello"
+let vowels="aeioiAEIOU"
+let result=""
+let res=""
+
+for (i = 0; i < name.length; i++) {
+    if (vowels.includes(name[i])) {
+        result += name[i];
+        
+      
+    if (!vowels.includes(name[i])) {
+        res+= name[i];
+        
+    }}
+
+}
+console.log(result.length)
+console.log(res.length)
+
+
+    </script>
+</body>
+</html>
